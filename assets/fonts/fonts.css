@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Doran';
+  src: url('./Doran-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Doran';
+  src: url('./Doran-ExtraBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+:root {
+  --font-family-brand: 'Doran', sans-serif;
+  --font-family-body: var(--font-family-brand);
+  --font-family-heading: var(--font-family-brand);
+  --font-weight-body: 400;
+  --font-weight-heading: 800;
+  --font-weight-action: 800;
+}
